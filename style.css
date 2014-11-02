@@ -58,6 +58,11 @@ body#tut {
 	/*text-shadow: 3px 3px 2px #000;*/
 }
 
+#title_tut a {
+	text-decoration: none;
+	color: #000;
+}
+
 #title span#bold, #title_tut span#bold {
 	font-family: Avenir-Bold;
 }
@@ -132,44 +137,61 @@ body#tut {
 	font-family: Avenir-Bold;
 }
 
-.form-container {
+#content {
 	position: absolute;
 	top: 200px;
 	left: calc(50% - 200px);
-	width: 400px;
-	height: 190px;
-	background: #eee;
+	width: 410px;
+	height: auto;
+	background: #EEE;
 	border-radius: 5px;
+	padding: 10px;
 }
 
-.student-title {
+#content p {
+	margin: 0px;
+	padding: 10px;
 	font-family: Avenir;
-	text-align: center;
+	font-size: 19px;
 }
 
-.text-field {
-	font-family: Avenir;
-	margin-left: 125px;
-	margin-bottom: 30px;
-	padding: 5px 5px 5px 5px;
-}
-
-.find-tutor-btn {
-	text-decoration: none;
-	width: 150px;
-	height: 27px;
-	background: #E74C3C;
-	color: #FFF;
-	text-align: center;
-	line-height: 27px;
-	font-family: Avenir;
-	border-radius: 3px;
+#tut_name, #tut_email, #course_code {
+	width: 365px;
 	padding: 15px;
-	margin-left: 125px;
-	-webkit-transition: background 0.2s;
+	border: 5px solid #95A8AC;
+	border-radius: 5px;
+	font-family: Avenir;
+	font-size: 15px;
 }
 
-.find-tutor-btn:hover {
-	background: #d63b2c;
-	-webkit-transition: background 0.2s;
+#course_code {
+	width: 315px;
+}
+
+#tut_name:focus, #tut_email:focus, #course_code:focus {
+	outline: none;
+}
+
+#add_course {
+	width: 30px;
+	height: 30px;
+	background: #E74C3C url("images/add.png") no-repeat;
+	background-size: cover;
+	cursor: pointer;
+	margin-left: 5px;
+	border: 5px solid #E74C3C;
+	border-radius: 3px;
+}
+
+#course_list {
+	margin-left: 20px;
+	padding: 0px;
+	list-style-type: none;
+	margin-bottom: 0px;
+}
+
+#course_list li {
+	width: 100px;
+	padding: 5px;
+	font-family: Avenir;
 }
