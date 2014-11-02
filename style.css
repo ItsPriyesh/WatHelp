@@ -115,7 +115,7 @@ body#tut {
 }
 
 #header {
-	position: absolute;
+	position: fixed;
 	top: 0px;
 	left: 0px;
 	width: 100%;
@@ -123,6 +123,7 @@ body#tut {
 	background: #FFF;
 	border-bottom: 3px solid gray;
 	box-shadow: 0px 0px 5px #999;
+	z-index: 2;
 }
 
 #tutor_heading {
@@ -139,13 +140,14 @@ body#tut {
 
 #content {
 	position: absolute;
-	top: 200px;
+	top: 150px;
 	left: calc(50% - 200px);
 	width: 410px;
 	height: auto;
 	background: #EEE;
 	border-radius: 5px;
 	padding: 10px;
+	margin-bottom: 50px;
 }
 
 #content p {
@@ -206,4 +208,29 @@ body#tut {
 
 #avail tr td {
 	padding: 5px;
+}
+
+#teach_button {
+	float: left;
+	text-decoration: none;
+	width: 375px;
+	height: 27px;
+	background: #E74C3C;
+	color: #FFF;
+	text-align: center;
+	line-height: 27px;
+	font-family: Avenir;
+	border-radius: 3px;
+	padding: 15px;
+	-webkit-transition: background 0.2s;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+#teach_button:hover {
+	background: #d63b2c;
+}
+
+select {
+	padding: 2px;
 }
