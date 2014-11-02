@@ -1,0 +1,175 @@
+/* CSS DOCUMENT */
+
+@font-face {
+	font-family: Avenir-Bold;
+	src: url("fonts/AvenirLTStd-Black.otf");
+}
+
+@font-face {
+	font-family: Avenir-Light;
+	src: url("fonts/avenirLight.ttf");
+}
+
+@font-face {
+	font-family: Avenir;
+	src: url('fonts/avenirRegular.ttf');
+}
+
+@font-face {
+	font-family: Neou-Bold;
+	src: url('fonts/Neou-Bold.otf');
+}
+
+body {
+	background: #2B607E url("images/mainbg.png") no-repeat;
+	background-size: cover;
+}
+
+body#tut {
+	background: #C7D0D2;
+}
+
+#title {
+	position: absolute;
+	top: 200px;
+	left: 0px;
+	width: 100%;
+	height: 80px;
+	font-family: Avenir-Light;
+	font-weight: 300;
+	color: #FFF;
+	font-size: 75px;
+	text-align: center;
+	text-shadow: 3px 3px 2px #000;
+}
+
+#title_tut {
+	position: absolute;
+	top: 0px;
+	right: 200px;
+	width: 300px;
+	height: 120px;
+	line-height: 120px;
+	font-family: Avenir-Light;
+	font-weight: 300;
+	color: #000;
+	font-size: 75px;
+	text-align: center;
+	/*text-shadow: 3px 3px 2px #000;*/
+}
+
+#title span#bold, #title_tut span#bold {
+	font-family: Avenir-Bold;
+}
+
+#slogan {
+	position: absolute;
+	top: 320px;
+	left: 0px;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	font-family: Avenir;
+	font-size: 30px;
+	color: #EEE;
+	text-shadow: 2px 2px 3px #000;
+}
+
+#buttons {
+	position: absolute;
+	top: 500px;
+	left: calc(50% - 200px);
+	width: 400px;
+	height: 50px;
+}
+
+#buttons ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+#buttons ul li a {
+	float: left;
+	text-decoration: none;
+	width: 150px;
+	height: 27px;
+	background: #E74C3C;
+	color: #FFF;
+	text-align: center;
+	line-height: 27px;
+	font-family: Avenir;
+	border-radius: 3px;
+	padding: 15px;
+	margin-left: 10px;
+	-webkit-transition: background 0.2s;
+}
+
+#buttons ul li a:hover {
+	background: #d63b2c;
+}
+
+#header {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 120px;
+	background: #FFF;
+	border-bottom: 3px solid gray;
+	box-shadow: 0px 0px 5px #999;
+}
+
+#tutor_heading {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 300px;
+	height: 120px;
+	text-align: center;
+	line-height: 120px;
+	font-size: 25px;
+	font-family: Avenir-Bold;
+}
+
+.form-container {
+	position: absolute;
+	top: 200px;
+	left: calc(50% - 200px);
+	width: 400px;
+	height: 190px;
+	background: #eee;
+	border-radius: 5px;
+}
+
+.student-title {
+	font-family: Avenir;
+	text-align: center;
+}
+
+.text-field {
+	font-family: Avenir;
+	margin-left: 125px;
+	margin-bottom: 30px;
+	padding: 5px 5px 5px 5px;
+}
+
+.find-tutor-btn {
+	text-decoration: none;
+	width: 150px;
+	height: 27px;
+	background: #E74C3C;
+	color: #FFF;
+	text-align: center;
+	line-height: 27px;
+	font-family: Avenir;
+	border-radius: 3px;
+	padding: 15px;
+	margin-left: 125px;
+	-webkit-transition: background 0.2s;
+}
+
+.find-tutor-btn:hover {
+	background: #d63b2c;
+	-webkit-transition: background 0.2s;
+}
