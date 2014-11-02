@@ -281,3 +281,23 @@ select {
 	background: #d63b2c;
 	-webkit-transition: background 0.2s;
 }
+
+.listing-table {
+	width:90%; 
+	top:200px;
+	left:5%;
+	position:absolute;
+	background: #EEE;
+	border-radius: 5px;
+	padding: 5px 5px 5px 5px;
+}
+
+.listing-headers-row {
+	font-family: Avenir-Bold;
+	border-bottom: 1px solid #333;
+
+}
+.listing-content-row {
+	font-family: Avenir;
+	border-bottom: 1px solid #333;
+}
