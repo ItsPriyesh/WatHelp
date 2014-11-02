@@ -371,6 +371,11 @@ select {
 	cursor: pointer;
 }
 
+#about a {
+	text-decoration: none;
+	color: #FFF;
+}
+
 #about:hover {
 	background: #111;
 }
@@ -399,4 +404,12 @@ select {
 	line-height: 55px;
 	font-family: Avenir;
 	color: #FFF;
+}
+
+#about_info1 {
+	margin: 150px auto;
+	padding: 0px;
+	width: 35%;
+	font-family: Avenir;
+	font-size: 25px;
 }
