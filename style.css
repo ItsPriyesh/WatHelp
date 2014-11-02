@@ -157,7 +157,7 @@ body#tut {
 	font-size: 19px;
 }
 
-#tut_fname, #tut_lname, #tut_email, #course_code, #charge_rate {
+#tut_fname, #tut_lname, #tut_email, #course_code, #charge_rate, #stud_course_code {
 	width: 365px;
 	padding: 15px;
 	border: 5px solid #95A8AC;
@@ -170,6 +170,9 @@ body#tut {
 	width: 160px;
 }
 
+#stud_course_code {
+	width: 110px;
+}
 
 #course_code {
 	width: 315px;
@@ -183,7 +186,7 @@ body#tut {
 	font-family: Avenir-Bold;
 }
 
-#tut_fname:focus, #tut_lname:focus, #tut_email:focus, #course_code:focus, #charge_rate:focus {
+#tut_fname:focus, #tut_lname:focus, #tut_email:focus, #course_code:focus, #charge_rate:focus, #stud_course_code:focus {
 	outline: none;
 }
 
