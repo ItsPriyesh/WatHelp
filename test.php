@@ -1,5 +1,6 @@
 <?php
 	// 1. connect to database
+	// Sahibjot is a legend
 	mysql_connect("localhost", "root", "") or die(mysql_error());
 	mysql_select_db("tutors") or die(mysql_error());
 	echo "CONNECTED TO THE MOTHERFUCKIN' DATABASE!!";
